@@ -14,7 +14,7 @@ const port = + process.env.PORT || 228;
 
 const handler = (req, res) => {
 	console.log(`-> ${req.method} ${req.url}`);
-	const myMoodleUsername = 'is-91-21';
+	const myMoodleUsername = 'is-91-023';
 	if (req.url.slice(1) === myMoodleUsername) {
 		const body = {
 			name: 'Роман',
